@@ -1,0 +1,34 @@
+### Requests for Employee Management System
+
+### Create a new employee
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "Mariana",
+  "lastName": "Batista",
+  "email": "maribatista@gmail.com"
+}
+
+### Get employee by ID
+GET http://localhost:8080/api/employees/1
+Accept: application/json
+
+
+### Get all employees
+GET http://localhost:8080/api/employees
+Accept: application/json
+
+### Update an employee
+PUT http://localhost:8080/api/employees/2
+Content-Type: application/json
+
+{
+  "firstName": "Mary",
+  "lastName": "On a Trip",
+  "email": "marionatrip@gmail.com"
+}
+
+### Delete an employee
+DELETE http://localhost:8080/api/employees/3
+Accept: application/json
