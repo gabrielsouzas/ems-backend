@@ -1,0 +1,12 @@
+# =============================
+# === DATABASE CONFIGURATION ===
+# =============================
+spring.application.name=ems-backend
+spring.datasource.url=jdbc:postgresql://localhost:5432/ems
+spring.datasource.username=postgres
+spring.datasource.password=123
+
+# =============================
+# === JPA / HIBERNATE ==========
+# =============================
+spring.jpa.hibernate.ddl-auto=update
